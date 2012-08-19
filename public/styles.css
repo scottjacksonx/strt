@@ -1,0 +1,88 @@
+body {
+  font-family: 'FuturaExtraBold';
+  background-color: #022c31;
+  text-rendering: optimizeLegibility; }
+
+#content {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px; }
+
+.time-container {
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .time-container #time {
+    text-align: center;
+    font-size: 128pt;
+    font-weight: bold;
+    color: #02444c;
+    text-shadow: 0px 1px 0px #016d7b;
+    letter-spacing: 2px; }
+    .time-container #time .meridian {
+      color: #02383f;
+      font-size: 24pt;
+      text-shadow: none; }
+
+.topsites {
+  float: left;
+  width: 440px;
+  margin: 0 auto;
+  padding: 25px;
+  padding-top: 35px;
+  border: 1px solid #02444c;
+  box-shadow: 0px 1px 0px #111; }
+  .topsites h2 {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: -45px;
+    margin-bottom: 15px;
+    background-color: #022c31;
+    font-family: 'FuturaExtraBold';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #02444c;
+    text-shadow: 0px 1px 0px #111;
+    text-align: center; }
+  .topsites .topsite {
+    float: left;
+    width: 400px;
+    height: 44px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: #cf4c64;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 44px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32pt;
+    color: #dfdfdf;
+    text-shadow: 0px -1px 0px #202020;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #ff5f7d;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px #a03b4f;
+    -webkit-transition: linear 0.1s all; }
+  .topsites .topsite:active {
+    position: relative;
+    top: 3px;
+    box-shadow: 0px 2px 0px #a03b4f; }
+
+#meta {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 3px; }
+  #meta a {
+    font-family: Monaco;
+    font-size: 10px;
+    color: #02444c;
+    text-decoration: none;
+    -webkit-transition: 0.2s linear color; }
+  #meta a:hover {
+    color: #016d7b; }

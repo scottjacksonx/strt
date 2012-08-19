@@ -4,6 +4,8 @@ require 'sinatra'
 # local development
 set :port, 8080
 
-get '/' do
-	erb :index
+version = 0.1
+
+get '/' do	
+	erb :index, :locals => {:version => version}
 end
